@@ -49,17 +49,17 @@ Isso iniciará os aplicativos cliente e servidor no modo de desenvolvimento. O s
 disponível em http://localhost:3000.
 
 ### 4. Execute os Testes
+```bash
+# Modo Interativo (Abre o Cypress Test Runner)
 
-### Modo Interativo (Abre o Cypress Test Runner)
-```bash
 npx cypress open
-```
-### Modo Headless (Execução silenciosa no terminal)
-```bash
+
+# Modo Headless (Execução silenciosa no terminal)
+
 npx cypress run
-```
-### Executar um arquivo específico
-```bash
+
+# Executar um arquivo específico
+
 npx cypress run --spec "cypress/e2e/login.spec.cy.js"
 ```
 ### 🧪 Suite de Testes Implementada
