@@ -1,0 +1,45 @@
+  {
+    "userSuccess": {
+      "username": "test@test.com",
+      "password": "test123"
+    },
+
+    "userFail": {
+      "username": "teste",
+      "password": "123"
+    },
+
+    "userADM": {
+      "username": "admin@test.com",
+      "password": "test123"
+    },
+
+    "userRegular": {
+      "username": "test@test.com",
+      "password": "test123"
+    },
+
+    "createNewHero": {
+      "name": "Stardust",
+      "price": "9",
+      "fans": "8",
+      "saves": "7"
+    },
+
+    "editHero": {
+      "name": "Super QA Editado",
+      "price": "3",
+      "fans": "4",
+      "saves": "5"
+    }, 
+
+    "homeHero": {
+      "name": "The Smoker"
+    }, 
+
+    "avatar": {
+      "editFileName" : "avatarsuperqa.jpg",
+      "newFileName": "avatar.jpg"
+    }
+
+  }
