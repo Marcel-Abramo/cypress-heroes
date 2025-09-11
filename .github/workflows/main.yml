@@ -19,7 +19,7 @@ jobs:
           runTests: false
           build: npm run build
       - name: Save build folder
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: build-folders
           if-no-files-found: error
@@ -84,3 +84,10 @@ jobs:
           start: npm run start:ci
           wait-on: 'http://localhost:3000, http://localhost:3001/heroes'
           command: npm run test:api:ci
+
+
+          name: Upload test results
+          uses: actions/upload-artifact@v4
+          with:
+          name: test-results
+          path: results/
