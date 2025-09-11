@@ -84,7 +84,7 @@ A cobertura inclui testes para os principais fluxos da aplicação:
 
 ### 🏗️ Estrutura do Projeto
 
-cypress-heroes-automation/
+cypress-heroes-automation/ <br>
 ├── 📁 cypress/ <br>
 │   ├── 📁 e2e/               # Test cases organizados por feature <br>
 │   ├── 📁 fixtures/          # Dados de teste (user-data.json) <br>
