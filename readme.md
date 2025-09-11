@@ -72,15 +72,15 @@ A cobertura inclui testes para os principais fluxos da aplicação:
 • Validações de campo (email, senha obrigatórios) <br>
 
 ### 🦸 CRUD de Heróis <br>
-• Criação: Cadastro de novo herói com upload de avatar <br>
-• Leitura: Validação de exibição na home page <br>
-• Atualização: Edição de informações e avatar existente <br>
-• Exclusão: Remoção de herói com confirmação <br>
+• <b>Criação:</b> Cadastro de novo herói com upload de avatar <br>
+• <b>Leitura:</b> Validação de exibição na home page <br>
+• <b>Atualização:</b> Edição de informações e avatar existente <br>
+• <b>Exclusão:</b> Remoção de herói com confirmação <br>
 
 ### 🏠 Home Page <br>
-• Usuário não logado: Interações bloqueadas com alertas <br>
-• Usuário comum: Like e contratação de heróis <br>
-• Administrador: Fluxos completos de edição e exclusão <br>
+• <b>Usuário não logado:</b> Interações bloqueadas com alertas <br>
+• <b>Usuário comum:</b> Like e contratação de heróis <br>
+• <b>Administrador:</b> Fluxos completos de edição e exclusão <br>
 
 ### 🏗️ Estrutura do Projeto <br>
 
