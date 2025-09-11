@@ -50,15 +50,15 @@ disponível em http://localhost:3000.
 
 ### 4. Execute os Testes
 
-# Modo Interativo (Abre o Cypress Test Runner)
+### Modo Interativo (Abre o Cypress Test Runner)
 ```bash
 npx cypress open
 ```
-# Modo Headless (Execução silenciosa no terminal)
+### Modo Headless (Execução silenciosa no terminal)
 ```bash
 npx cypress run
 ```
-# Executar um arquivo específico
+### Executar um arquivo específico
 ```bash
 npx cypress run --spec "cypress/e2e/login.spec.cy.js"
 ```
