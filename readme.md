@@ -66,23 +66,23 @@ npx cypress run --spec "cypress/e2e/login.spec.cy.js"
 
 A cobertura inclui testes para os principais fluxos da aplicação:
 
-### 🔐 Autenticação (Login)
-• Login com credenciais válidas
-• Tentativas de login com credenciais inválidas
-• Validações de campo (email, senha obrigatórios)
+### 🔐 Autenticação (Login) <br>
+• Login com credenciais válidas <br>
+• Tentativas de login com credenciais inválidas <br>
+• Validações de campo (email, senha obrigatórios) <br>
 
-### 🦸 CRUD de Heróis
-• Criação: Cadastro de novo herói com upload de avatar
-• Leitura: Validação de exibição na home page
-• Atualização: Edição de informações e avatar existente
-• Exclusão: Remoção de herói com confirmação
+### 🦸 CRUD de Heróis <br>
+• Criação: Cadastro de novo herói com upload de avatar <br>
+• Leitura: Validação de exibição na home page <br>
+• Atualização: Edição de informações e avatar existente <br>
+• Exclusão: Remoção de herói com confirmação <br>
 
-### 🏠 Home Page
-• Usuário não logado: Interações bloqueadas com alertas
-• Usuário comum: Like e contratação de heróis
-• Administrador: Fluxos completos de edição e exclusão
+### 🏠 Home Page <br>
+• Usuário não logado: Interações bloqueadas com alertas <br>
+• Usuário comum: Like e contratação de heróis <br>
+• Administrador: Fluxos completos de edição e exclusão <br>
 
-### 🏗️ Estrutura do Projeto
+### 🏗️ Estrutura do Projeto <br>
 
 cypress-heroes-automation/ <br>
 ├── 📁 cypress/ <br>
@@ -96,13 +96,13 @@ cypress-heroes-automation/ <br>
 │   └── cobertura-testes.md   # Matriz de rastreabilidade <br>
 └── 📄 README.md              # Este arquivo <br>
 
-### 🧩 Padrões e Boas Práticas Implementadas
-• Page Object Model (POM): Separação clara entre lógica de teste e seletores
-• Seletores Resilientes: Uso de data-cy attributes e estratégias robustas
-• Dados Dinâmicos: Gerenciamento de estado e dados independentes entre testes
-• Asserções Significativas: Validações baseadas em comportamento do usuário
+### 🧩 Padrões e Boas Práticas Implementadas <br>
+• Page Object Model (POM): Separação clara entre lógica de teste e seletores <br>
+• Seletores Resilientes: Uso de data-cy attributes e estratégias robustas <br>
+• Dados Dinâmicos: Gerenciamento de estado e dados independentes entre testes <br>
+• Asserções Significativas: Validações baseadas em comportamento do usuário <br>
 
-📝 Licença
+📝 Licença <br>
 Este projeto é para fins educacionais e de portfólio. A aplicação Cypress Heroes é de terceiros e pode estar sujeita à sua própria licença.
 
 Nota: Este projeto foi desenvolvido como parte do programa de mentoria LumeStack Guardião da Qualidade.
