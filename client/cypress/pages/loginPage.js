@@ -9,7 +9,7 @@ class LoginPage {
         };
 
         return selectors;
-        }
+    }
 
     accessLoginPage() {
         cy.visit("http://localhost:3000/heroes");

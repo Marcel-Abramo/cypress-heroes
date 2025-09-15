@@ -1,6 +1,6 @@
 import userData from "../fixtures/user-data.json";
 import LoginPage from "../pages/loginPage";
-import NewHeroPage from "../pages/new-heroPage";
+import NewHeroPage from "../pages/newHeroPage";
 
 const newheroPage = new NewHeroPage();
 const loginPage = new LoginPage();
