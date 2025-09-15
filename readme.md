@@ -84,17 +84,18 @@ A cobertura inclui testes para os principais fluxos da aplicação:
 
 ### 🏗️ Estrutura do Projeto <br>
 
-cypress-heroes-automation/ <br>
+client/ <br>
 ├── 📁 cypress/ <br>
-│   ├── 📁 e2e/               # Test cases organizados por feature <br>
-│   ├── 📁 fixtures/          # Dados de teste (user-data.json) <br>
-│   ├── 📁 pages/             # Page Objects (LoginPage, HomePage...) <br>
-│   └── 📁 support/           # Comandos customizados e configurações <br>
-├── 📁 docs/                  # Documentação completa <br>
-│   ├── plano-de-testes.pdf   # Estratégia e planejamento <br>
-│   ├── sugestoes-melhorias.md # Análise de UX e sugestões <br>
-│   └── cobertura-testes.md   # Matriz de rastreabilidade <br>
-└── 📄 README.md              # Este arquivo <br>
+│   ├── 📁 e2e/                # Casos de testes automatizados <br>
+│   ├── 📁 fixtures/           # Dados de teste (user-data.json) <br>
+│   ├── 📁 pages/              # Page Objects (LoginPage, HomePage...) <br>
+│   └── 📁 support/            # Comandos customizados e configurações <br>
+├── 📁 docs/                   # Documentação completa <br>
+│   ├── casosDeTestes.md       # Descrição dos casos de testes <br>
+│   ├── planoDeTestes.md       # Estratégia e planejamento <br>
+│   ├── sugestaoDeMelhorias.md # Análise de UX e sugestões <br>
+│   └── coberturaDeTestes.md   # Matriz de rastreabilidade <br>
+└── 📄 README.md               # Este arquivo <br>
 
 ### 🧩 Padrões e Boas Práticas Implementadas <br>
 • Page Object Model (POM): Separação clara entre lógica de teste e seletores <br>
